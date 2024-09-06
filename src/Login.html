@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css" />
+</head>
+<body class="bg-[#0f0f0f] lg:bg-[#222220]">
+    <main class="text-slate-100 p-8 w-full mx-auto mt-7 lg:max-w-[700px] lg:bg-[#0f0f0f] rounded-lg">
+        <div class="flex flex-col justify-center items-center">
+            <a href=""><i class="fa-brands fa-spotify text-2xl mb-3 lg:text-[37px]"></i> </a>
+            <h1 class="text-3xl font-bold lg:text-3xl">Log in to Spotify</h1>
+        </div>
+
+        
+        <div class="mt-7 space-y-3 flex flex-col justify-center items-center">
+            <button class="w-full lg:max-w-xs border border-gray-400 rounded-full px-5 py-3  flex items-center justify-between hover:outline-2 hover:border-gray-200 hover:transition-all duration-150">
+                <img src="../img/icons8-google-48.png" class="w-6" alt="">
+                <p class="font-bold mx-auto">Continue with Google</p>
+            </button>
+            <button class="w-full lg:max-w-xs border border-gray-400 rounded-full px-5 py-3 flex items-center justify-between hover:outline-2 hover:border-gray-200 hover:transition-all duration-150">
+                <img src="../img/icons8-facebook-48.png" class="w-6" alt="">
+                <p class="font-bold mx-auto">Continue with Facebook</p>
+            </button>
+            <button class="w-full lg:max-w-xs border border-gray-400 rounded-full px-5 py-3 flex items-center justify-between hover:outline-2 hover:border-gray-200 hover:transition-all duration-150">
+                <i class="fa-brands fa-apple text-white text-xl"></i>
+                <p class="font-bold mx-auto">Continue with Apple</p>
+            </button>
+        </div>
+        <div class="mt-8">
+            <hr class="border-gray-800">
+        </div>
+        <div class=" mt-8 ">
+            <div class="space-y-2">
+                <label for="email" class="text-sm mb-2 font-bold">Email or username</label>
+            <input type="email" name="text" class="bg-inherit w-full px-4 py-3 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-200" required placeholder="Email or username">
+            </div>
+            <div class="mt-5 space-y-2">
+                <label for="Password" class="text-sm mb-2 font-bold">Password</label>
+            <input type="password" name="Password" class="bg-inherit w-full px-4 py-3 border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-slate-200" required placeholder="Password">
+            </div>
+            <button type="submit" class="mt-4 w-full bg-[#20c752] text-black font-semibold py-3 px-4 rounded-full hover:bg-[#35df68]">Log In</button>
+
+        </div>
+        <div class="flex flex-col justify-center items-center mt-7">
+            <a href="" class="underline font-semibold">Forgot your password?</a>
+            <p class="mt-5 text-gray-400 font-semibold">Don't have an account></p>
+            <a href="./SignUp.html" class="underline font-semibold mt-3">Sign up for Spotify.</a>
+        </div>
+        <div class="text-center p-2  mt-16">
+            <p class="text-xs text-slate-300">This site protected by reCAPTCHA and the Google <u>Privacy Policy</u> and <u>Terms of Service</u> apply.</p>
+        </div>
+    </main>
+</body>
+</html>
